@@ -15,6 +15,10 @@ public class Crawler {
     public Crawler(int maxNumberPages) {
         this.maxNumberPages = maxNumberPages;
     }
+
+    public int getMaxNumberPages() {
+        return maxNumberPages;
+    }
     
     private String nextUrl()
     {
